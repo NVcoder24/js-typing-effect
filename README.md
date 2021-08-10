@@ -62,7 +62,7 @@ Epic js based typing effect!
 
 	<script>
 		toggle_typing(0, "Js typing effect is epic!", "", "", 300, 50, 300, 5); 
-    // id, target text, static text on start, static text on end, delay between cursor blinking, delay between typing letters, deley after cursor will disapear
+    // id, target text, static text on start, static text on end, delay between cursor blinking, delay between typing letters, delay after cursor will disapear, cursor blinking time
 	</script>
 </body>
 </html>

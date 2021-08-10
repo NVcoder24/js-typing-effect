@@ -10,7 +10,7 @@ Epic js based typing effect!
 ```
 
 ## exapmle
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,4 +67,4 @@ Epic js based typing effect!
 </body>
 </html>
 ```
-[Open in jsFiddle](https://jsfiddle.net/v7zLkmed/10 "Open in jsFiddle")
+[Open in jsFiddle](https://jsfiddle.net/v7zLkmed/11/ "Open in jsFiddle")

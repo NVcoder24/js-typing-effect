@@ -1,5 +1,6 @@
 # js-typing-effect
-Epic js based typing effect!
+Epic js based typing effect!<br>
+Requires JQuery!
 
 ## usage
 ```html
@@ -17,45 +18,8 @@ Epic js based typing effect!
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>js typing effect</title>
-	<script>
-		// toggle slow typing function
-    function toggle_typing(id, target, start_text, end_text, delay, type_delay, end_time, blink_times) {
-      texts = $(".js-typing-effect")
-
-      $(texts).each(function() {
-        if ($(this).attr("data-typing-effect-id") == id) {
-          let text = this;
-
-          for (let m = 0; m < blink_times; m++) {
-            setTimeout(function() {
-              $(text).html(start_text + "<span>_</span>" + end_text);
-            }, m * delay);
-          }
-
-          for (let m = 0; m < blink_times - 1; m++) {
-            setTimeout(function() {
-              $(text).html(start_text + "<span> </span>" + end_text);
-            }, m * delay + delay / 2);
-          }
-
-          arr = target.split("");
-
-          let buffer = ""
-
-          for (let i = 0; i < arr.length; i++) {
-            setTimeout(function() {
-              buffer +=  arr[i];
-              $(text).html(start_text + buffer + "_" + end_text);
-            }, type_delay * i + delay * 5);
-          }
-
-          setTimeout(function() {
-            $(text).html(start_text + target + end_text);
-          }, type_delay * arr.length + end_time + delay * 5);
-        }
-      });
-    }
-	</script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+	<script src="js-typing-effect.js"></script>
 </head>
 <body>
 	<h1 class="js-typing-effect" data-typing-effect-id=0></h1>

@@ -31,4 +31,4 @@ Requires JQuery!
 </body>
 </html>
 ```
-[Open in jsFiddle](https://jsfiddle.net/v7zLkmed/11/ "Open in jsFiddle")
+[Open in jsFiddle](https://jsfiddle.net/sj4cx09b/ "Open in jsFiddle")
